@@ -13,7 +13,6 @@ $(document).ready(function () {
 		$.get('http://tiyfe.herokuapp.com/collections/chattycats', function (show) {
 			$chatBox.html('');
 			console.log(show.length);
-			show.reverse();
 			for (var i = 0; i < show.length; i++) {
 				$chatBox.append('<div>' + show[i].user + ': ' + show[i].post + '</div>');
 			}

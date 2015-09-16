@@ -1,7 +1,57 @@
+.hideBar{
+	background: pink;
+	float: right;
+	height: 100em;
+	width: 10em;
+	position: fixed;
+	margin-left: 90%;	
+
+}
+#chatBox div {
+	padding: .1em 0;
+}
+body {
+	background: pink;
+}
 #chatBox {
-	height: 40em;
-	overflow-y:auto
+	height: 30em;
+	overflow: hidden;
+	overflow-y: scroll;
+	padding-top: 5.5em;
+	padding-bottom: 5em;
+	padding-left: 2%;
+	padding-right: 2%;
+
 }
 #chat {
 	width: 40%;
+	position: fixed;
+	bottom: 0;
+	margin-left: 1%;
+	padding: .5em .5em;
+}
+#user {
+	position: fixed;
+	bottom: 0;
+	margin-left: 45%;
+}
+#submit {
+	position: fixed;
+	bottom: 0;
+	margin-left: 60%;
+}
+.cat {
+	background: black;
+	color: white;
+	font-family: 'Pacifico', cursive;
+	padding: .5em 1em;
+	font-size: 2em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+.background {
+	background: pink;
 }

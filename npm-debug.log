@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'jquery-emoji-picker' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/gabrielbird/tiy/day15/classwork/ajax/package.json
+6 warn package.json new-project@1.0.0 No repository field.
+7 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/babelify/package.json
+8 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/browserify/package.json
+9 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp/package.json
+10 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-imagemin/package.json
+11 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-minify-css/package.json
+12 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-prompt/package.json
+13 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-rename/package.json
+14 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-rimraf/package.json
+15 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-sass/package.json
+16 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-sourcemaps/package.json
+17 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-uglify/package.json
+18 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-util/package.json
+19 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/gulp-webserver/package.json
+20 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/jquery/package.json
+21 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/lodash.assign/package.json
+22 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/minimist/package.json
+23 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/vinyl-buffer/package.json
+24 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/vinyl-source-stream/package.json
+25 verbose installManyTop reading scoped package data from /Users/gabrielbird/tiy/day15/classwork/ajax/node_modules/watchify/package.json
+26 info package.json gulp-rimraf@0.1.1 No license field.
+27 info package.json gulp-rename@1.2.2 No license field.
+28 info package.json jquery@2.1.4 No license field.
+29 verbose readDependencies loading dependencies from /Users/gabrielbird/tiy/day15/classwork/ajax/package.json
+30 silly cache add args [ 'jquery-emoji-picker', null ]
+31 verbose cache add spec jquery-emoji-picker
+32 silly cache add parsed spec { raw: 'jquery-emoji-picker',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'jquery-emoji-picker',
+32 silly cache add   rawSpec: '',
+32 silly cache add   spec: '*',
+32 silly cache add   type: 'range' }
+33 silly addNamed jquery-emoji-picker@*
+34 verbose addNamed "*" is a valid semver range for jquery-emoji-picker
+35 silly addNameRange { name: 'jquery-emoji-picker', range: '*', hasData: false }
+36 silly mapToRegistry name jquery-emoji-picker
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/jquery-emoji-picker
+40 verbose addNameRange registry:https://registry.npmjs.org/jquery-emoji-picker not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/jquery-emoji-picker
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 16:40:23
+44 verbose request id 8e5bbcc8f40d3e55
+45 http request GET https://registry.npmjs.org/jquery-emoji-picker
+46 http 404 https://registry.npmjs.org/jquery-emoji-picker
+47 verbose headers { 'content-type': 'application/json',
+47 verbose headers   'cache-control': 'max-age=0',
+47 verbose headers   'content-length': '2',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   date: 'Wed, 16 Sep 2015 21:40:23 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   age: '0',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'x-served-by': 'cache-ord1721-ORD',
+47 verbose headers   'x-cache': 'MISS',
+47 verbose headers   'x-cache-hits': '0',
+47 verbose headers   'x-timer': 'S1442439623.699097,VS0,VE81' }
+48 silly get cb [ 404,
+48 silly get   { 'content-type': 'application/json',
+48 silly get     'cache-control': 'max-age=0',
+48 silly get     'content-length': '2',
+48 silly get     'accept-ranges': 'bytes',
+48 silly get     date: 'Wed, 16 Sep 2015 21:40:23 GMT',
+48 silly get     via: '1.1 varnish',
+48 silly get     age: '0',
+48 silly get     connection: 'keep-alive',
+48 silly get     'x-served-by': 'cache-ord1721-ORD',
+48 silly get     'x-cache': 'MISS',
+48 silly get     'x-cache-hits': '0',
+48 silly get     'x-timer': 'S1442439623.699097,VS0,VE81' } ]
+49 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/jquery-emoji-picker
+49 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:239:14)
+49 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+49 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:197:22)
+49 verbose stack     at Request.emit (events.js:110:17)
+49 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1050:14)
+49 verbose stack     at Request.emit (events.js:129:20)
+49 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:996:12)
+49 verbose stack     at IncomingMessage.emit (events.js:129:20)
+49 verbose stack     at _stream_readable.js:908:16
+49 verbose stack     at process._tickCallback (node.js:355:11)
+50 verbose statusCode 404
+51 verbose pkgid jquery-emoji-picker
+52 verbose cwd /Users/gabrielbird/tiy/day15/classwork/ajax
+53 error Darwin 14.4.0
+54 error argv "node" "/usr/local/bin/npm" "install" "--save" "jquery-emoji-picker"
+55 error node v0.12.7
+56 error npm  v2.12.1
+57 error code E404
+58 error 404 Registry returned 404 for GET on https://registry.npmjs.org/jquery-emoji-picker
+58 error 404
+58 error 404 'jquery-emoji-picker' is not in the npm registry.
+58 error 404 You should bug the author to publish it (or use the name yourself!)
+58 error 404 It was specified as a dependency of 'new-project'
+58 error 404
+58 error 404 Note that you can also install from a
+58 error 404 tarball, folder, http url, or git url.
+59 verbose exit [ 1, true ]

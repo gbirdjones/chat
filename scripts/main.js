@@ -6,7 +6,8 @@ var $user = $('#user');
 var $form = $('#form');
 var $chat = $('#chat');
 var $user = $('#user');
-var $chatBox = $('#chatBox')
+var $chatBox = $('#chatBox');
+
 
 
 setInterval(function() {
@@ -15,13 +16,13 @@ $.get (
 	function(show) {
 		$chatBox.html('');
 		console.log(show.length);
-		show.reverse();
 			for(var i=0; i<show.length; i++) {
 				$chatBox.append('<div>' + show[i].user + ': ' + show[i].post + '</div>');
 			}
 		},
 		'json'
 	)
+	
 }
 	, 2000);
 
