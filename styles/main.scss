@@ -1,3 +1,11 @@
+.catPic {
+	position: fixed;
+	bottom: 70%;
+	margin-left: 70%;
+	z-index: 200;
+
+}
+
 .hideBar{
 	background: pink;
 	float: right;
@@ -24,21 +32,21 @@ body {
 
 }
 #chat {
-	width: 40%;
+	width: 30em;
 	position: fixed;
 	bottom: 0;
-	margin-left: 1%;
+	margin-left: 1em;
 	padding: .5em .5em;
 }
 #user {
 	position: fixed;
 	bottom: 0;
-	margin-left: 45%;
+	margin-left: 33em;
 }
 #submit {
 	position: fixed;
 	bottom: 0;
-	margin-left: 60%;
+	margin-left: 45em;
 }
 .cat {
 	background: black;

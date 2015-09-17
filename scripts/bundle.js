@@ -2,12 +2,24 @@
 'use strict';
 
 $(document).ready(function () {
-
 	var $user = $('#user');
 	var $form = $('#form');
 	var $chat = $('#chat');
 	var $user = $('#user');
 	var $chatBox = $('#chatBox');
+	// var $purrify = $('#delete');
+
+	// var deleteAll = function(e) {
+	// 	e.forEach(function(record) {
+	// 			var url = 'http://tiyfe.herokuapp.com/collections/chattycats' + '/' + record._id
+	// 			console.log(url);
+	// 	$.ajax
+	// 	({
+	//     url: url,
+	//     method: 'DELETE'
+	// 	});
+	// });
+	// }
 
 	setInterval(function () {
 		$.get('http://tiyfe.herokuapp.com/collections/chattycats', function (show) {
@@ -25,6 +37,7 @@ $(document).ready(function () {
 		audio.play();
 		var newPost = $chat.val();
 		var userName = $user.val();
+		$chat.val('');
 		console.log(newPost, userName);
 		$.post('http://tiyfe.herokuapp.com/collections/chattycats', { post: newPost,
 			user: userName }, function (result) {
@@ -33,6 +46,8 @@ $(document).ready(function () {
 			$chatBox.append('<div>' + userName + ': ' + result.post + '</div>');
 		}, 'json');
 	});
+
+	// $purrify.on('click', deleteAll);
 });
 
 },{}]},{},[1])
